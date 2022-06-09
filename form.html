@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-up to robot-world</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <div class="form-head">
+            <a href="index.html" class="btn-back"><</a>
+            <h3 class="form-title">Заявка на втупление</h3>
+        </div>
+        <div class="form-body">
+            <fieldset class="nickname-field">
+                <legend>Ваш никнейм в реальной жизни:)</legend>
+                <input type="text" placeholder="Имя" class="fname" name="fName">
+                <input type="text" placeholder="Фамилия" class="sname" name="fName">
+            </fieldset>
+
+            <p>Ваш пол</p>
+            <div class="input-wrapper">
+                <input type="radio" name="gender" class="male-radio" id="male-radio">
+                <label for="male-radio">М</label>
+    
+                <input type="radio" name="gender" class="female-radio" id="female-radio">
+                <label for="female-radio">Ж</label>
+            </div>
+
+           <div class="input-wrapper">
+                <input type="checkbox" id="age" class="age" name="gender">
+                <label for="age">Мне есть 18</label>
+           </div>
+
+            <div class="input-wrapper">
+                <label for="game">Ваша дисциплина</label>
+                <select id="game" name="game" class="game">
+                <option value="cs_go">CS:GO</option>
+                <option value="dota2">Dota2</option>
+                <option value="apex_legends">Apex legends</option>
+                </select>
+            </div>
+            <textarea name="comment" id="comment" placeholder="Дополнительная информация" class ="comment"></textarea>
+            <button class="submit">Отправить заявку</button>
+        </div>
+    </form>
+</body>
+</html>
