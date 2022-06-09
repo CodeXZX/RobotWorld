@@ -59,7 +59,7 @@ body{
 }
 .site-header{
     height: 80vh;
-    background: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg") center/cover no-repeat;
+    background: url("apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg") center/cover no-repeat;
     position: relative;
 }
 .header-content{
@@ -151,13 +151,13 @@ body{
     display: inline-block;
 }
 .game2{
-    background: url("img/dota2.jpg") left/cover no-repeat;
+    background: url("dota2.jpg") left/cover no-repeat;
 }
 .game1{
-    background: url("img/csgo.jpg") left/cover no-repeat;
+    background: url("csgo.jpg") left/cover no-repeat;
 }
 .game3{
-    background: url("img/apex.jpg") left/cover no-repeat;
+    background: url("apex.jpg") left/cover no-repeat;
 }
 .ending-box{
     max-width: 1000px;
